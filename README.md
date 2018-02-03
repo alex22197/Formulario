@@ -2,6 +2,8 @@
 
 He integrado el formulario en mi página web, para acceder al mismo, habrá que simplemente clickar en el icono de usuario arriba a la derecha.
 
+**IMPORTANTE**: Se deberá usar de navegador Firefox (ya que con Chrome no se guardan las cookies en local). 
+
 1. Primero habrá que registrarse con unas credenciales validas, si lo hemos realizado correctamente, nos saldrá un mensaje de &quot;_Te has registrado correctamente_&quot;.
 2. Segundo tendremos que irnos al apartado de Login e iniciar sesión con nuestro correo y nuestra contraseña. Si todo está OK nos saldrá un mensaje de &quot;_Sesión iniciada, bienvenido_&quot;. En cambio, si cometemos algún error al introducir nuestras credenciales, el mensaje será de &quot;_Correo no registrado, pruebe de nuevo_&quot;.
 
