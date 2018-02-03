@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" media="all" href="css/estilos.css">
+  <script type="text/javascript" src="librerias/jquery.js"></script>
+  <script type="text/javascript" src="librerias/sha.js"></script>
+  <meta charset="UTF-8">
+</head>
+<body>
+<div class="principio">
+<h2>¿Que desea hacer?</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Registrate</button>
+<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Log in</button>
+
+</div>
+<div id="id01" class="modal">
+
+
+  <form name="form" class='formReg' action="../proyecto.html">
+    <div class="container">
+      <h1>Registrate</h1>
+      <p>Rellena el formulario para registrarte.</p>
+      <hr>
+        <fieldset>
+        Nombre y apellido:  *</br>
+        <input type="text" name="nombre" required>
+       
+        <br><br>
+        Correo electronico:  *</br>
+        <input type="text" name="email" required> 
+
+        <br><br>
+        Contraseña:  *</br>
+        <input type="password" name="contra" required> 
+
+         <br><br>
+        Confirmacion de contraseña:  *</br>
+        <input type="password" name="confirmacion" required> 
+         <br><br>
+
+         Sexo:
+        <select> 
+          <option value="femenino">Femenino</option> 
+          <option value="masculino">Masculino</option>
+        </select> 
+
+        <br><br>
+        Fecha de nacimiento:</br>
+        <input type="date" name="nac"> 
+         <br><br>
+
+         Direccion:</br>
+        <input type="text" name="dir"> 
+         <br><br>
+         
+         Pais:
+           <select> 
+          <option value="Spain">España</option> 
+          <option value="France">Francia</option>
+          <option value="Germany">Alemania</option>
+          <option value="Portugal">Portugal</option>
+          <option value="Italy">Italia</option>
+          <option value="GB">Gran Bretaña</option>
+        </select> 
+
+        <br><br>
+
+
+          Tarjeta de credito:</br>
+        <input type="text" name="tarjeta"> 
+         <br><br>
+
+    Desea recibir notificacion de novedades?
+    <input type="checkbox" name="novedades">
+
+    <br><br>
+
+    Desea recibir recepcion de la revista digital?
+    <input type="checkbox" class="revista">
+    <br><br>
+        
+           
+        (Los campos con * serán obligatorios)
+        </fieldset>
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+        <button>Registrate</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div id="id02" class="login">
+  <form name="form2" class='form2' action="../proyecto.html">
+    <div class="container">
+      <h1>Log in</h1>
+       <fieldset>
+        Correo electronico: </br>
+        <input type="text" name="email2" required>
+        <br><br>
+        Contraseña:
+         <input type="password" name="contra2" required>
+        <br><br>
+      </fieldset>
+       <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancelar</button>
+        <button>Log In</button>
+
+    </div>
+   </form>
+ </div>
+
+<script type="text/javascript" src="js/validacion.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!--<html>
+<head>
+    <link rel="stylesheet" type="text/css" media="all" href="css/estilos.css"> 
+    
+    
+</head>
+<body>
+  <form>
+    <input type="submit" id="log-in" name="log-in" value="Log in">
+    <button id="register" onclick="una()">Registro</button>
+  </p>
+</form>
+
+<script type="text/javascript">
+    
+ function una(){
+  window.location.href="registro.html";
+
+  }
+  
+</script>
+<script type="text/javascript" src="js/login.js"></script>
+<script type="text/javascript" src="librerias/jquery.js"></script>
+<script type="text/javascript" src="js/validacion.js"></script>
+
+</body>
+</html>
+-->
