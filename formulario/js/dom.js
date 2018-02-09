@@ -35,7 +35,7 @@
 
 
  $('.direccion').on('keyup',function() {
-	var d = document.getElementsByClassName('direccion')[0].value;
+	var d =document.getElementsByClassName('direccion')[0].value;
 	
 	if(d!="" && select.value!=""){
 		$(".tarjeta").css('display','unset');
