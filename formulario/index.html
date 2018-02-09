@@ -51,27 +51,24 @@
         <input type="date" name="nac"> 
          <br><br>
 
-         Direccion:<br>
-        <input type="text" name="dir"> 
+         
+        <label> Direccion:<br> <input type="text" name="direccion" class="direccion"> </label>
          <br><br>
          
          Pais:
-           <select> 
-          <option value="Spain">España</option> 
-          <option value="France">Francia</option>
-          <option value="Germany">Alemania</option>
-          <option value="Portugal">Portugal</option>
-          <option value="Italy">Italia</option>
-          <option value="GB">Gran Bretaña</option>
-        </select> 
+          <label>
+            <select class="country" name="country"> 
+              <option value="Spain" class="paises">Spain</option>
+            </select> 
+          </label>
 
         <br><br>
 
-
-          Tarjeta de credito:<br>
-        <input type="text" name="tarjeta"> 
+<div class="tarjeta">
+          
+        <label>Tarjeta de credito:<br> <input type="text" name="trj"> </label>
          <br><br>
-
+</div>
     Desea recibir notificacion de novedades?
     <input type="checkbox" name="novedades">
 
@@ -112,6 +109,7 @@
  </div>
 
 <script type="text/javascript" src="js/validacion.js"></script>
+<script type="text/javascript" src="js/dom.js"></script>
 </body>
 </html>
 
